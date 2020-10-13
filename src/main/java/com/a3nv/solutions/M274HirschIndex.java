@@ -1,4 +1,4 @@
-package com.asnv.solutions;
+package com.a3nv.solutions;
 
 import static java.lang.System.out;
 
@@ -20,10 +20,12 @@ import static java.lang.System.out;
  * Since the researcher has 3 papers with at least 3 citations each and the remaining
  * two with no more than 3 citations each, her h-index is 3.
  * Note: If there are several possible values for h, the maximum one is taken as the h-index.
+ *
+ * @see <a href="https://leetcode.com/problems/h-index/">https://leetcode.com/problems/h-index/</a>
  * @author asnv
  *         Date: August 15, 2020
  */
-public class HirschIndex274 {
+public class M274HirschIndex {
 
     public static void main(String[] args) {
         out.println(getResult(new int[]{

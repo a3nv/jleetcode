@@ -9,20 +9,20 @@ package com.a3nv.util;
  * ListNode(int val) { this.val = val; }
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  */
-public class Node {
+public class ListNode {
 
     private int val;
 
-    private Node next;
+    private ListNode next;
 
-    public Node() {
+    public ListNode() {
     }
 
-    public Node(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
-    public Node(int val, Node next) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }
@@ -35,14 +35,14 @@ public class Node {
         this.val = val;
     }
 
-    public Node getNext() {
+    public ListNode getNext() {
         return next;
     }
 
 
     @Override
     public String toString() {
-        Node current = this;
+        ListNode current = this;
         StringBuilder sb = new StringBuilder();
         while (current != null) {
             sb.append(current.getVal());

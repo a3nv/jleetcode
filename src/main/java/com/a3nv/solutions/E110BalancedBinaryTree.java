@@ -46,17 +46,17 @@ public class E110BalancedBinaryTree {
         if (root == null) {
             return true;
         }
-        int lh = getHeight(root.getLeft());
-        int rh = getHeight(root.getRight());
+        int lh = getHeight(root.left);
+        int rh = getHeight(root.right);
 
-        return Math.abs(lh - rh) <= 1 && isBalanced(root.getLeft()) && isBalanced(root.getRight());
+        return Math.abs(lh - rh) <= 1 && isBalanced(root.left) && isBalanced(root.right);
     }
 
     private static int getHeight(TreeNode node) {
         if (node == null) {
             return 0;
         }
-        return 1 + Math.max(getHeight(node.getLeft()), getHeight(node.getRight()));
+        return 1 + Math.max(getHeight(node.left), getHeight(node.right));
     }
 
     public static void main(String[] args) {

@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" project-jdk-name="13" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Downloads/patmat" value="PREVIEW" />
-        <entry key="$USER_HOME$/education/practice/coursera/functional_programming_principals_in_scala/forcomp" value="PREVIEW" />
-        <entry key="$USER_HOME$/education/practice/coursera/functional_programming_principals_in_scala/patmat" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../coursera/scala_functional_programming/example" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../scala/coursera_functional_programmin_scala/recfun" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../scala/coursera_scala_functional_programming_principles" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../scala/coursera_scala_functional_programming_principles/week_0_5" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../scala/coursera_scala_functional_programming_principles/week_1" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../scala/coursera_scala_functional_programming_principles/week_3" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../scala/coursera_scala_functional_programming_principles/week_4" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../scala/coursera_scala_functional_programming_principles_week_2" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../../scala_sandbox" value="PREVIEW" />
-      </map>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
     </option>
   </component>
-  <component name="ScalaSbtSettings">
-    <option name="customVMPath" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" project-jdk-name="14" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
